@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Genética Mendeliana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Herencia Genética Mendeliana</h1>
+        <label for="padre">Genotipo del Padre:</label>
+        <select id="padre">
+            <option value="AA">AA</option>
+            <option value="Aa">Aa</option>
+            <option value="aa">aa</option>
+        </select>
+        
+        <label for="madre">Genotipo de la Madre:</label>
+        <select id="madre">
+            <option value="AA">AA</option>
+            <option value="Aa">Aa</option>
+            <option value="aa">aa</option>
+        </select>
+        
+        <button onclick="calcularHerencia()">Calcular</button>
+        
+        <h2>Resultados:</h2>
+        <div id="resultado"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
